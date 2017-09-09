@@ -1,0 +1,30 @@
+﻿@section head
+{
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function() {
+            $("#btn").on('click', function () {
+                document.getElementById("ResultLabel").innerHTML = "processing...";
+                $.ajax({
+                        url: '/Functions/PerformTextToUpperCase',
+                        type: 'POST',
+                        data: { text: $("#inputfield").val() }
+                });
+            });
+        });
+    </script>
+}
+
+
+@{
+    ViewData["Title"] = "Text to Upper Case";
+}
+
+<h2>Text to Upper Case</h2>
+<p>basically enter something into the text box and hit the Submit button, from there the a request will be sent to a webjob to perform the operation of making the text entirely upper case, then will return back to you on this webpage via signalr.</p>
+
+<input type="text" id="inputfield" value="replace me"/>
+<input type="button" id="btn" value="Submit"/>
+<p><p>
+Result: <label id="ResultLabel"></label>
