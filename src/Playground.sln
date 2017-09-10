@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.26730.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.WebSite", "Playground.WebSite\Playground.WebSite.csproj", "{E32E8131-5B5D-4C1F-BFC2-7D574499695B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.Core", "Playground.Core\Playground.Core.csproj", "{6F5F32AB-12F5-4854-A2C4-1B9C7BB994FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Playground.Core", "Playground.Core\Playground.Core.csproj", "{6F5F32AB-12F5-4854-A2C4-1B9C7BB994FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Playground.WebJob", "Playground.WebJob\Playground.WebJob.csproj", "{EA19174A-19CD-4F13-8F03-DC25CA90CA97}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6F5F32AB-12F5-4854-A2C4-1B9C7BB994FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F5F32AB-12F5-4854-A2C4-1B9C7BB994FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F5F32AB-12F5-4854-A2C4-1B9C7BB994FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA19174A-19CD-4F13-8F03-DC25CA90CA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA19174A-19CD-4F13-8F03-DC25CA90CA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA19174A-19CD-4F13-8F03-DC25CA90CA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA19174A-19CD-4F13-8F03-DC25CA90CA97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
